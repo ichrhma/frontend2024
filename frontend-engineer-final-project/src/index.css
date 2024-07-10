@@ -1,0 +1,58 @@
+:root {
+  --primary: #06d6a0;
+  --Secondary: #118ab2;
+  --Danger: #ef476f;
+  --Black-Color: #073b4c;
+  --Gray-Color: #64748b;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", "Open-Sans";
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.navbar-cek {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 1040x) {
+  .wrapper {
+    max-width: 694px;
+  }
+  .navbar-cek {
+    max-width: 694px;
+  }
+}
+
+@media (max-width: 720px) {
+  .wrapper {
+    padding: 0 32px;
+  }
+
+  section h2,
+  h1,
+  h3 {
+    font-size: 24px;
+  }
+
+  section h2::after {
+    width: 50px;
+    bottom: 0;
+  }
+}

@@ -1,0 +1,164 @@
+.abu {
+  background: #f8f9fa;
+}
+
+#global {
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+  padding: 100px 0;
+  justify-content: center;
+}
+
+#global .wrapper h2 {
+  padding-top: 72px;
+  color: var(--Primary, #06d6a0);
+  text-align: center;
+  font-size: 61px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 auto;
+}
+
+#global .wrapper .global-name {
+  color: var(--Secondary, #118ab2);
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 auto;
+}
+
+#global .wrapper .global-box {
+  padding-top: 50px;
+  display: flex;
+  gap: 20px;
+}
+#global .wrapper .global-box .box:hover {
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+#global .wrapper .global-box .box {
+  width: 354px;
+  height: 290px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 40px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#global .wrapper .global-box .box p {
+  color: var(--Black-Color, #073b4c);
+  text-align: center;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+
+#global .wrapper .global-box .box h3 {
+  text-align: center;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 auto;
+}
+
+#global .wrapper .global-box .box .hijau {
+  color: var(--Primary, #06d6a0);
+}
+
+#global .wrapper .global-box .box .biru {
+  color: var(--Secondary, #118ab2);
+}
+
+#global .wrapper .global-box .box .merah {
+  color: var(--Danger, #ef476f);
+}
+
+@media (max-width: 720px) {
+  #global .wrapper .global-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #global {
+    padding: 0;
+  }
+  #global .wrapper h2 {
+    padding-top: 100px;
+  }
+}
+
+.regional {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.region-box {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+
+.region-box .box {
+  width: 354px;
+  height: 290px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 40px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.region-box .box:hover {
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.region-box .box p {
+  color: var(--Black-Color, #073b4c);
+  text-align: center;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+
+.region-box .box h3 {
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 auto;
+}
+
+.region-box .box .hijau {
+  color: var(--Primary, #06d6a0);
+}
+
+.region-box .box .biru {
+  color: var(--Secondary, #118ab2);
+}
+
+.region-box .box .merah {
+  color: var(--Danger, #ef476f);
+}
+
+@media (max-width: 720px) {
+  .region-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

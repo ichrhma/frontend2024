@@ -1,0 +1,64 @@
+.putih {
+  background: #fff;
+}
+
+#provinsi {
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+  padding: 100px 0;
+}
+
+#provinsi .wrapper h2 {
+  padding-top: 19px;
+  color: var(--Primary, #06d6a0);
+  text-align: center;
+  font-size: 61px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 auto;
+}
+
+#provinsi .wrapper .global-name {
+  color: var(--Secondary, #118ab2);
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 auto;
+}
+
+.provinsi-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+
+.provinsi-table th {
+  color: var(--Primary, #06d6a0);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.provinsi-table th,
+.provinsi-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.provinsi-table th {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 720px) {
+  .provinsi-table th,
+  .provinsi-table td {
+    padding: 1px;
+    padding: 0;
+  }
+}
